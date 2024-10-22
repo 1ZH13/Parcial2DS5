@@ -10,22 +10,42 @@ body {
 
 
 header{
-    color: #CD74A4;
+    color: #ffffff;
     padding: 20px 0;
     text-align: center;
     animation: fadeIn 2s;
+    background-image: url(../IMG/baner.png);
+    background-size: cover;
+    background-position: center;
 }
 
 h1.logo{
     font-size: 3em;
     margin: 0;
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+    text-shadow: 2px 2px 5px rgb(0, 0, 0);
 }
+
+.logo-lead h1 {
+    background-color: rgba(185, 24, 209, 0.751);
+    display: inline-block;
+    padding: 10px;
+    border-radius: 5px;
+}
+.logo-lead p  {
+    background-color: rgba(185, 24, 209, 0.751);
+    display: inline-block;
+    padding: 10px;
+    border-radius: 5px;
+}
+
 
 p.lead{
     font-size:1.5em;
     margin: 10px 0;
+    text-shadow: 2px 2px 5px rgb(0, 0, 0);
 }
+
+
 
 
 .contenedor{
@@ -46,9 +66,12 @@ nav ul li {
 }
 
 nav ul li a{
-    color: #655CD2;
+    color: #ffffff;
     text-decoration: none;
     transition: color 0.3s;
+    background-color: rgba(185, 24, 209, 0.751);
+    text-shadow: 2px 2px 5px rgb(0, 0, 0);
+    
 }
 nav ul li a:hover{
     color: rgb(180, 164, 26);
@@ -75,6 +98,7 @@ table {
     width: 100%;
     border-collapse: collapse;
     margin: 20px 0;
+    
 }
 
 table th, table td{
